@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+	<author>Lars Hansen</author>
+	<contributors></contributors>
+    <version>0.9.0.0</version>
+	<title>
+        <en>Automatic Water filling</en>
+    </title>
+	<description>
+        <en>
+			<![CDATA[This mod automatically fills all animal pens that needs water every 4 hours. 
+The cost of the water is calculated, and deducted from your balance.
+]]>
+		</en>
+    </description>
+	<iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+	<extraSourceFiles>	
+		<sourceFile filename="AutomaticWaterFill.lua" /> 
+	</extraSourceFiles>
+</modDesc>
