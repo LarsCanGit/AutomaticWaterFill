@@ -29,7 +29,7 @@ function automaticWaterFill:FillAllPens()
 		local costs = self:doForHusbandry(clusterHusbandry, farmId)
 
 		if (costs ~= nil and costs > 0) then
-			g_currentMission:addMoney(-costs, farmId, MoneyType.ANIMAL_UPKEEP, true, true)
+			g_currentMission:addMoney(-costs, farmId, MoneyType.PURCHASE_WATER, true, true)
 		end
 	end
 	return 0
